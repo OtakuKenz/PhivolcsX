@@ -10,7 +10,7 @@ struct EarthquakeView: View {
     var body: some View {
         ZStack(alignment: .topTrailing) {
             VStack(alignment: .leading, spacing: 5) {
-                Text("PHIVOLCS Quakes")
+                Text("Earthquakes")
                     .font(.largeTitle)
                     .bold()
                 if(!vm.isLoading){
