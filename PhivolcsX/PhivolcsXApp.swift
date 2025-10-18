@@ -11,7 +11,7 @@ import SwiftUI
 struct PhivolcsXApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
